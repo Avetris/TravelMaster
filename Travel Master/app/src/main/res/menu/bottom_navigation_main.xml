@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_perfil"
+        android:enabled="true"
+        android:icon="@drawable/ic_account_box_white_48dp"
+        android:title="personal"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_buscar"
+        android:enabled="true"
+        android:icon="@drawable/ic_search_white_48dp"
+        android:title="find"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_favoritos"
+        android:enabled="true"
+        android:icon="@drawable/ic_favorite_white_48dp"
+        android:title="favoritos"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_mapa"
+        android:enabled="true"
+        android:icon="@drawable/ic_map_white_48dp"
+        android:title="map"
+        app:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.travelmaster.Fragment.MapFragment">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        card_view:cardCornerRadius="4dp"
+        card_view:contentPadding="0dp">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <fragment
+                android:id="@+id/place_autocomplete_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/campoBuscar"
+                android:background="#fff"
+                android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"/>
+        </android.support.v7.widget.Toolbar>
+    </android.support.v7.widget.CardView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/botonCrear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/transparentGray"
+        android:src="@android:drawable/ic_menu_add"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"/>
+
+</RelativeLayout>

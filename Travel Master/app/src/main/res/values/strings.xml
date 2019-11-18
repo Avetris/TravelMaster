@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Travel Master</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_map_fragment">Map</string>
+    <string name="sincronizando">Sincronizando</string>
+
+    <string name="error_usuario_existe">El nombre de idUsuario ya existe</string>
+    <string name="error_nombre_formato">El campo nombre no puede contener ni simbolos ni números</string>
+    <string name="error_contrasena_formato">La contraseña debe ser de tamaño 4-20 y debe contener una letra mayúscula, minúscula y un número</string>
+    <string name="error_misma_contrasena">Debe introducir la misma contraseña</string>
+    <string name="error_correo_formato">Formato de correo incorrecto</string>
+    <string name="error_usuario_vacio">El campo Usuario no puede ir vacío</string>
+    <string name="error_nombre_vacio">El campo nombre no puede ir vacío</string>
+    <string name="error_contrasena_vacio">El campo contraseña no puede ir vacío</string>
+    <string name="error_repetir_contrasena_vacio">El campo Repetir Contraseña no puede ir vacío</string>
+    <string name="error_correo_vacio">El campo Correo no puede ir vacío</string>
+    <string name="error_telefono">Se debe introducir un telefono válido</string>
+    <string name="error_fecha_nacimiento">Se debe introducir una Fecha de nacimiento</string>
+
+    <string name="iniciando_sesion">Iniciando Sesión...</string>
+    <string name="error_no_conectado">Conectese a internet y vuelva a intentarlo</string>
+    <string name="registro_correcto_toast">Registro Correcto</string>
+    <string name="error_login">Usuario o contraseña incorrectos.</string>
+    <string name="registrar">Registrar</string>
+    <string name="login">Login</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="nick">Usuario</string>
+    <string name="nombreApe">Nombre y Apellidos</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="repetirContrasena">Repetir Contraseña</string>
+    <string name="telefono">Teléfono</string>
+    <string name="fechaNacimiento">Fecha Nacimiento</string>
+    <string name="descripcion">Descripción</string>
+    <string name="atras">Atrás</string>
+    <string name="categoria">Categoría</string>
+    <string name="crearLugar">Crear Lugar Nuevo</string>
+    <string name="permisosLocation">Son necesarios los permisos de localización para poder ver el mapa</string>
+    <string name="permisosCamara">Es necesario aceptar los permisos de cámara para poder sacar fotos</string>
+    <string name="permisosInternal">Es necesario acceptar los permisos de acceso a los archivos para elegir alguna imágen</string>
+    <string name="soloSiguiendo">Solo Siguiendo</string>
+    <string name="posicionActual">Posición Actual</string>
+    <string name="todos">Todos</string>
+    <string name="hoteles">Hoteles</string>
+    <string name="ocio">Ocio</string>
+    <string name="hosteleria">Hostelería</string>
+    <string name="sanidad">Sanidad</string>
+    <string name="transportes">Transportes</string>
+    <string name="puntosInteres">Puntos de Interés</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="anadir_lugar_titulo">Crear Lugar</string>
+    <string name="crear_lugar_mensaje">¿Seguro que quieres crear el idLugar en las siguientes coordenadas?</string>
+    <string name="crear">Crear</string>
+    <string name="error_nombre_lugar">Se debe introducir un nombre del Lugar</string>
+    <string name="error_descripcion_lugar">Se debe introducir una descripcion del Lugar</string>
+    <string name="error_categoria">Debes seleccionar alguna categoría</string>
+    <string name="crearLugarMapa">Mapa Crear Lugar</string>
+    <string name="error_imagen_lugar">Debe seleccionar una imagen del idLugar</string>
+    <string name="error_auth_code">Se ha perdido la conexión con el servidor. Conectese de nuevo y vuelva a intentarlo.</string>
+    <string name="insertandoLugar">Creando Lugar</string>
+    <string name="nombreLugar">Nombre Lugar</string>
+    <string name="descripcionLugar">Descripción del Lugar</string>
+    <string name="dejarSeguir">Dejar de Seguir</string>
+    <string name="seguir">Seguir</string>
+    <string name="siguiendo">Siguiendo</string>
+    <string name="crearReview">Valorar</string>
+    <string name="nombreReview">Nombre Valoración</string>
+    <string name="descripcionReview">Comentario Valoración</string>
+    <string name="error_nombre_review">El nombre de la valoración es obligatorio</string>
+    <string name="creandoReview">Creando Valoración</string>
+    <string name="salirMessage">¿Seguro que quieres salir?</string>
+    <string name="salirTitle">Salir</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="campoBuscar">Buscar...</string>
+    <string name="personas">Personas</string>
+    <string name="lugares">Lugares</string>
+    <string name="modificarDatos">Modificar Datos</string>
+    <string name="salir">Salir</string>
+    <string name="seguroSalir">¿Seguro que quieres desconectarte?</string>
+    <string name="gustaPersonas">personas le gustan</string>
+    <string name="guardar">Guardar</string>
+    <string name="cambiarDescripcion">Modificar Descripción</string>
+    <string name="cambiarContrasena">Cambiar Contraseña</string>
+
+
+</resources>

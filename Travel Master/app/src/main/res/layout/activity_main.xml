@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat.Light"
+    tools:context="com.travelmaster.Activity.MainActivity">
+
+    <include layout="@layout/toolbar_layout"
+        android:id="@+id/toolbar"/>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/menuInferior"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/background_bottom"
+        app:itemBackground="@android:color/transparent"
+        app:itemIconTint="@drawable/selector_menu_inferior"
+        app:itemTextColor="@android:color/transparent"
+        android:elevation="6dp"
+        app:menu="@menu/bottom_navigation_main">
+    </android.support.design.widget.BottomNavigationView>
+    <FrameLayout
+        android:id="@+id/contenedor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_above="@id/menuInferior"/>
+</RelativeLayout>

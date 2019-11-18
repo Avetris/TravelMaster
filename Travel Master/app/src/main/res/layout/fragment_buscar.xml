@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.travelmaster.Fragment.BuscarFragment"
+    android:background="@drawable/background_with_noicon">
+
+    <com.arlib.floatingsearchview.FloatingSearchView
+        android:id="@+id/barraBusqueda"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:floatingSearch_searchHint="Search..."
+        app:floatingSearch_suggestionsListAnimDuration="250"
+        app:floatingSearch_showSearchKey="true"
+        app:floatingSearch_leftActionMode="noLeftAction"
+        app:floatingSearch_close_search_on_keyboard_dismiss="true"/>
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/barraFiltros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/barraBusqueda"
+        app:itemBackground="@color/transparentGray"
+        app:itemTextColor="@color/materialcolorpicker__white"
+        app:itemIconTint="@android:color/transparent"
+        android:elevation="6dp"
+        app:menu="@menu/categoria_navigation">
+    </android.support.design.widget.BottomNavigationView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listaBusqueda"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/barraFiltros"/>
+</RelativeLayout>

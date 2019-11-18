@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title=""
+        android:icon="@drawable/ic_settings_white_48dp"
+        app:showAsAction="always" >
+            <menu>
+                <item
+                    android:id="@+id/modificar"
+                    android:enabled="true"
+                    android:title="@string/modificarDatos"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/cambiarContrasena"
+                    android:enabled="true"
+                    android:title="@string/cambiarContrasena"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/salir"
+                    android:enabled="true"
+                    android:title="@string/salir"
+                    app:showAsAction="never" />
+            </menu>
+        </item>
+</menu>
